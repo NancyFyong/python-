@@ -1,0 +1,5 @@
+input_string = input("请输入一个字符串: ")
+search_char = input("请输入要查找的字符: ")
+replace_char = input("请输入要替换的字符: ")
+modified_string = input_string.replace(search_char, replace_char)
+print("替换后的字符串:", modified_string)
