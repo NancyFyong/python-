@@ -1,5 +1,4 @@
 import random
-
 # 从changsha.txt文件中读取已被占用的车牌号码
 used_plates = set()
 with open("changsha.txt", "r",encoding='utf-8') as file:
